@@ -1,4 +1,44 @@
+### Overview
+
+This analysis delves into the Goodreads dataset, exploring various aspects of book data, including identifiers, user ratings, and publication years. The dataset provides valuable insights into book popularity, reader preferences, and the distribution of ratings.
+
+### Data
+
+The dataset includes the following key features:
+-  `book_id, best_book_id, work_id `: Unique book identifiers.
+-  `books_count `: The number of editions or copies available.
+-  `ratings_count and average_rating `: Metrics reflecting user feedback and engagement.
+-  `original_publication_year `: The year the book was first published.
+-  `isbn13 `: Standard book identification numbers.
+
+### Analysis
+
+The study involved several analytical approaches:
+1.  `Distribution Analysis `:
+   - Examined the frequency and distribution of variables like book_id, ratings_count, and average_rating.
+   - Assessed trends in original_publication_year using visualizations.
+
+2.  `Correlation Heatmap `:
+   - Investigated relationships between variables, such as ratings, counts, and publication year.
+   - Identified a strong positive correlation between the number of ratings and higher average ratings.
+
+### Insights
+
+1. The dataset reveals that the majority of books are relatively recent, with publication trends showing exponential growth over time.
+2. Ratings tend to cluster around 4.0, suggesting a general bias toward positive reviews among readers.
+3. Only a small fraction of books achieve widespread popularity, as indicated by the distribution of ratings_count.
+4. Strong correlations exist between certain rating categories (e.g., ratings_4, ratings_5) and average_rating, highlighting patterns in user preferences.
+
+### Implications
+
+1.  `Marketing Strategies `: Publishers can benefit from targeting newer publications and highly-rated books to boost engagement.
+2.  `Recommendation Systems `: Algorithms should emphasize books with both high average ratings and substantial user reviews for better recommendations.
+3.  `Data Cleaning `: Removing outliers in original_publication_year can refine historical analyses and enhance accuracy.
+
+
 <h2>Correlation HeatMap for Goodreads</h2>
+
+<img src="https://github.com/22f3001377/Project2/blob/main/goodreads/correlation_heatmap.png"></img>
 
 <h4>The correlation heatmap provides a visual representation of the relationships between the various features in the dataset. Each cell in the heatmap corresponds to the correlation coefficient between two features, with the values ranging from -1 to 1.
 The diagonal cells, which represent the <i>correlation between a feature and itself</i>, all show a value of 1.0, as expected.</h4>
