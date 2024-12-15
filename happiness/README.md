@@ -1,3 +1,6 @@
+<h2>About this dataset</h2>
+<h6>A file of various socioeconomic and well-being indicators.</h6>
+
 <h1>Happiness Correlation HeatMap</h1>
 
 <img src="https://github.com/22f3001377/Project2/blob/main/happiness/correlation_heatmap.png"></img>
