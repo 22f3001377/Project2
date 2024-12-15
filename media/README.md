@@ -1,3 +1,6 @@
+<h2>About the dataset</h2>
+<h6>Analysis of Media Content Attributes and Ratings</h6>
+
 <h2>Media Correlation HeatMap</h2>
 
 <img src="https://github.com/22f3001377/Project2/blob/main/media/correlation_heatmap.png"></img>
